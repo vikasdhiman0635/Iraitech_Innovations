@@ -1,0 +1,33 @@
+<div class="row">
+    <div class="col-md-2">
+        <app-top-left [data]="value"></app-top-left>
+    </div>
+    <div class="col-md-8"></div>
+    <div class="col-md-2">
+        <app-top-right [data]="value"></app-top-right>
+    </div>
+</div>
+<div class="contriner">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <div class="row">
+                <div class="col-md-5"></div>
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <input type="text" class="form-control" [(ngModel)]="value"/>
+                    </div>
+                </div>
+                <div class="col-md-5"></div>
+            </div>
+        </div>  
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-2">
+        <app-bottom-left [data]="value"></app-bottom-left>
+    </div>
+    <div class="col-md-8"></div>
+    <div class="col-md-2">
+        <app-bottom-rigth [data]="value"></app-bottom-rigth>
+    </div>
+</div>
